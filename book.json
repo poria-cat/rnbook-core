@@ -1,0 +1,45 @@
+{
+  "title": "《React Native小书》",
+  "description": "《React Native小书》带你入门React Native世界",
+  "output.name": "Small React Native Book",
+  "author": "茯苓猫",
+  "language": "zh-hans",
+  "plugins": [
+    "donate",
+    "sharing",
+    "editlink",
+    "sitemap"
+  ],
+  "pluginsConfig": {
+    "sharing": {
+      "facebook": true,
+      "twitter": true,
+      "google": false,
+      "weibo": true,
+      "instapaper": false,
+      "vk": false,
+      "all": [
+        "facebook",
+        "google",
+        "twitter",
+        "weibo",
+        "instapaper"
+      ]
+    },
+    "donate": {
+      "wechat": "/images/donate/wechat.jpg",
+      "alipay": "/images/donate/alipay.jpg",
+      "title": "",
+      "button": "打赏按钮",
+      "alipayText": "支付宝",
+      "wechatText": "微信"
+    },
+    "editlink": {
+      "base": "https://github.com/Elvenisboy/RNBook/blob/master/book/",
+      "label": "编辑本页"
+    },
+    "sitemap": {
+      "hostname": "http://rnbook.yeziker.com"
+    }
+  }
+}
